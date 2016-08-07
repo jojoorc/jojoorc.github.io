@@ -8,7 +8,7 @@
 
 <title>
   
-    归档: 2016/7
+    Archive: 2016/7
   
 </title>
 
@@ -78,21 +78,21 @@
           
             
               <li class="category-list-container">
-                <a href="javascript:;">分类</a>
+                <a href="javascript:;">Category</a>
                 
               </li>
             
           
             
               <li class="tag-list-container">
-                <a href="javascript:;">标签</a>
+                <a href="javascript:;">Tag</a>
                 
               </li>
             
           
             
               <li class="archive-list-container">
-                <a href="javascript:;">归档</a>
+                <a href="javascript:;">Archive</a>
                 <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/">2016</a><span class="archive-list-count">2</span></li></ul>
               </li>
             
@@ -199,15 +199,17 @@
 <h3 id="Learn-Git"><a href="#Learn-Git" class="headerlink" title="Learn Git"></a>Learn Git</h3><p><code>git init</code>将源码改为支持git。inti = initialize。Initalized an empty git repository in /home/ccuser/workspace/sorcerers-code/.git/</p>
 <p>A Git project can be thought of as having three parts:</p>
 <p>A Working Directory: where you’ll be doing all the work: creating, editing, deleting and organizing files<br>A Staging Area: where you’ll list changes you make to the working directory<br>A Repository: where Git permanently stores those changes as different versions of the project</p>
-<p>  <code>git log</code> A 40-character code, called a SHA, that uniquely identifies the commit. This appears in orange text.</p>
-<ul>
-<li><code>git init</code> creates a new Git repository</li>
-<li><code>git status</code> inspects the contents of the working directory and staging area</li>
-<li><code>git add</code> adds files from the working directory to the staging area</li>
-<li><code>git diff</code> shows the difference between the working directory and the staging area</li>
-<li><code>git commit</code> permanently stores file changes from the staging area in the repository</li>
-<li><code>git log</code> shows a list of all previous commits</li>
-</ul>
+<p><code>git log</code> A 40-character code, called a SHA, that uniquely identifies the commit. This appears in orange text.</p>
+<p><code>git init</code> creates a new Git repository</p>
+<p><code>git status</code> inspects the contents of the working directory and staging area</p>
+<p><code>git add</code> adds files from the working directory to the staging area</p>
+<p><code>git diff</code> shows the difference between the working directory and the staging area</p>
+<p><code>git diff --staged</code></p>
+<p><code>-a</code>跳过staging area 同样的还有<code>-m</code> <code>-am</code></p>
+<p><code>git checkout</code>在commit之前使用</p>
+<p><code>git commit</code> permanently stores file changes from the staging area in the repository. <code>-m</code>指语句简单，50字符内。</p>
+<p><code>git log</code> shows a list of all previous commits</p>
+<p><code>git clone</code> 将已经有的repo如github的复制</p>
 
         
       </div>
