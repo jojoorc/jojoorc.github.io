@@ -8,7 +8,7 @@
 
 <title>
   
-    Archive
+    归档
   
 </title>
 
@@ -78,21 +78,21 @@
           
             
               <li class="category-list-container">
-                <a href="javascript:;">Category</a>
+                <a href="javascript:;">分类</a>
                 
               </li>
             
           
             
               <li class="tag-list-container">
-                <a href="javascript:;">Tag</a>
+                <a href="javascript:;">标签</a>
                 
               </li>
             
           
             
               <li class="archive-list-container">
-                <a href="javascript:;">Archive</a>
+                <a href="javascript:;">归档</a>
                 <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/">2016</a><span class="archive-list-count">2</span></li></ul>
               </li>
             
@@ -189,11 +189,24 @@
 <p><code>ls -t</code> orders files and directories by the time they were last modified</p>
 </li>
 <li><p>Multiple options can be used together, like ls <code>-alt</code>.<br>From the command line, you can also copy, move, and remove files and directories:</p>
-<p><code>cp</code> copies files</p>
+<p><code>cp</code> 复制文件。 cp m* directory/ 将当前路径内所有m开头的文件复制到指定路径。</p>
 <p><code>mv</code> moves and renames files</p>
 <p><code>rm</code> removes files。无目标路径，删除文件。</p>
 <p><code>rm -r</code> removes directories</p>
 </li>
+</ul>
+<p>学习过程中，忘记了cd .. 代表返回上级目录。忘记了增加新文件的命令。</p>
+<h3 id="Learn-Git"><a href="#Learn-Git" class="headerlink" title="Learn Git"></a>Learn Git</h3><p><code>git init</code>将源码改为支持git。inti = initialize。Initalized an empty git repository in /home/ccuser/workspace/sorcerers-code/.git/</p>
+<p>A Git project can be thought of as having three parts:</p>
+<p>A Working Directory: where you’ll be doing all the work: creating, editing, deleting and organizing files<br>A Staging Area: where you’ll list changes you make to the working directory<br>A Repository: where Git permanently stores those changes as different versions of the project</p>
+<p>  <code>git log</code> A 40-character code, called a SHA, that uniquely identifies the commit. This appears in orange text.</p>
+<ul>
+<li><code>git init</code> creates a new Git repository</li>
+<li><code>git status</code> inspects the contents of the working directory and staging area</li>
+<li><code>git add</code> adds files from the working directory to the staging area</li>
+<li><code>git diff</code> shows the difference between the working directory and the staging area</li>
+<li><code>git commit</code> permanently stores file changes from the staging area in the repository</li>
+<li><code>git log</code> shows a list of all previous commits</li>
 </ul>
 
         
